@@ -1,0 +1,41 @@
+html, body {
+  /* font-family: "Microsoft Yahei","微软雅黑", PingFangSC-Regular,Verdana,Arial,"宋体", Helvetica, sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a.no-copyright {
+  color: #ccc;
+}
+a:hover {
+  color: #EA7030;
+}
+
+.nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.loading-anim-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-icon {
+  color: white;
+  display: block;
+  font-size: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}

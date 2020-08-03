@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- set `maximum-scale` for some compatibility issues -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta property="og:url" content="http://tongzhong.xyz">
+    <meta property="og:title" content="Tongzhong Mini"/>
+    <meta property="og:site_name" content="Tongzhong Mini"/>
+    <meta name="hostname" content="mini.tongzhong.xyz">
+    <meta name="applicable-device" content="mobile">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>Tongzhong Mini</title>
+
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body);
+        }, false);
+      }
+      if(!window.Promise) {
+        document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117992050-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117992050-5');
+    </script>
+    
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
