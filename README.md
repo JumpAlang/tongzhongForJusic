@@ -1,8 +1,7 @@
-# tongzhong-music
-[English](./README_en.md)
+# tongzhongForJusic
 
-[更新日志](./CHANGELOG.md)
-
+铜钟版本forJusic
+主要新增了：酷狗虾米根据歌手名+歌曲名单曲搜索
 <img src="./screenshots/qr_code.png" width="64" alt="mobile">
 
 <h3>将QQ音乐、网易云音乐、虾米音乐和酷我音乐上的歌添加到一个列表来播放！</h3>
